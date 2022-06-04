@@ -4,6 +4,9 @@ ALL EXERCISE LABS
 firstly i have created two folders
 Terraform will perform the following actions:
 
+
+         TERRAFORM APPLY IN NETWORK-LAYER
+
   # aws_vpc.Exercise-vpc will be created
   + resource "aws_vpc" "Exercise-vpc" {
       + arn                                  = (known after apply)
@@ -45,7 +48,8 @@ Outputs:
 vpc-id = "vpc-0af4696ca078fcdf7"
 
 
-
+        TERRAFORM APPLY IN INSTANCE- LAYER
+        
 
 
 Terraform will perform the following actions:
@@ -204,8 +208,8 @@ aws_instance.Exercise-instance: Still creating... [30s elapsed]
 aws_instance.Exercise-instance: Creation complete after 31s [id=i-0fef5c532ad176565]
 
 Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
-
-Outputs:
+         
+            OUTPUTS
 
 ami-id = "ami-01bb5fb90f6e8dc9d"
 ami_creation_date = "2022-04-28T21:39:50.000Z"
